@@ -61,7 +61,7 @@ h1{
     transform: scale(1.3);
 }
 
-#butt button:active{
+#butt #accept:active{
     background-color: rgb(241, 130, 149);
     transform: scale(1);
 }
