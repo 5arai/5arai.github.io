@@ -13,6 +13,11 @@ a.addEventListener("mouseover", function(){
     a.style.left = Math.floor(Math.random()*maxWidth) + "px";
 })
 
+a.addEventListener("click", function(){
+    a.style.top = Math.floor(Math.random()*maxHeight) + "px";
+    a.style.left = Math.floor(Math.random()*maxWidth) + "px";
+})
+
 b.onclick = function(){
     c.innerText= "💕 LET'S GOOOO! 💕";
 }
