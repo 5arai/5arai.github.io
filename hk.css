@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-image: url("mountain.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#text{
+
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 50%;
+
+    text-shadow: 5px 5px rgb(245, 93, 164);
+    text-align: center;
+
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 200%;
+
+    animation-name: move, shift;
+    animation-duration: 0.8s, 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+
+}
+
+#text img{
+    width: 10%;
+    height: 10%;
+    z-index: -1;
+
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+    
+}
+
+@keyframes spin {
+    0% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(360deg);}
+}
+
+@keyframes move {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+
+@keyframes shift {
+    0% {color: rgb(250, 202, 210);}
+    100% {color:rgb(248, 134, 240);}
+}
