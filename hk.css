@@ -2,12 +2,6 @@
     margin: 0;
 }
 
-video{
-    position: fixed;
-    visibility: hidden;
-    z-index: -4;
-}
-
 body{
     background-image: url("mountain.gif");
     background-repeat: no-repeat;
