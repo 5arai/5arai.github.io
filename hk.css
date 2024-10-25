@@ -5,6 +5,7 @@
 video{
     position: fixed;
     visibility: hidden;
+    z-index: -4;
 }
 
 body{
