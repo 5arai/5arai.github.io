@@ -3,7 +3,8 @@
 }
 
 video{
-    position: absolute;
+    position: fixed;
+    visibility: hidden;
 }
 
 body{
