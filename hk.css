@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+video{
+    position: absolute;
+}
+
 body{
     background-image: url("mountain.gif");
     background-repeat: no-repeat;
